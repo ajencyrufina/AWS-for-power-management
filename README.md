@@ -105,7 +105,9 @@ Restricted database access policies
 **🚀 Setup Instructions**
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/ajencyrufina/AWS-for-power-management.git
+
 cd AWS-for-power-management
 
 2️⃣ AWS Setup
