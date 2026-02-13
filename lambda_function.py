@@ -19,7 +19,7 @@ def lambda_handler(event, context):
     user = os.environ['DB_USER']
     password = os.environ['DB_PASSWORD']
     db_name = os.environ['DB_NAME']
-    sender_email = os.environ['SENDER_EMAIL']  # verified SES sender email
+    sender_email = os.environ['SENDER_EMAIL']  # verified SES sender emai
 
     # Connect to RDS MySQL
     connection = pymysql.connect(
@@ -114,3 +114,4 @@ def lambda_handler(event, context):
 
     finally:
         connection.close()
+
