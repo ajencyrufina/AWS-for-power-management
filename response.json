@@ -1,0 +1,1 @@
+{"errorMessage": "Syntax error in module 'lambda_function': '{' was never closed (lambda_function.py, line 51)", "errorType": "Runtime.UserCodeSyntaxError", "requestId": "", "stackTrace": ["  File \"/var/task/lambda_function.py\" Line 51\n            return {\n"]}
